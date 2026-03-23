@@ -1,0 +1,455 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Editor Student - provide your student name</title>
+
+    <link rel="stylesheet" href="../CSS/pageEditor_validator.css"> 
+
+</head>
+<body>
+    
+
+    <header>
+        <div class="logo">
+            <img src="../Images/logo.png" alt="Clean Water & Sanitation Logo" width="80">
+            <h1>Clean water & Sanitation</h1>
+        </div>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="volunteer.html">Volunteer</a>
+            <a href="table.html">Table</a>
+            <a href="profile.html">User Profile</a>
+            <a href="feedback.html">Feedback</a>
+            <a href="sitemap.html">Sitemap</a>
+            <a href="team.html">Team</a>
+        </nav>
+    </header>
+
+    <section class="stud">
+        <h2>Vinudi Ranadeera,Student 1</h2>
+    </section>
+
+    <div class="container">
+        <main>
+            <section>
+                <h2 id="splash">Splash Page</h2>
+                    <h3>Technical Description</h3>
+                        <p>
+                            <strong>HTML Techniques:</strong><br>
+                                <ul>
+                                    <li><strong>Document Structure:</strong> The <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, and <code>&lt;body&gt;</code> tags provide a foundational structure. The <code>&lt;meta&gt;</code> tags ensure proper encoding and responsive design. The <code>&lt;link&gt;</code> tag connects the external CSS file, separating styling from structure.</li>
+                                    <li><strong>Content Sections:</strong> <code>&lt;div&gt;</code> elements group and organize content for styling and layout control. Each section has a dedicated class, such as <code>.splashcontent</code> and <code>.splashbackground</code>, enhancing modular design.</li>
+                                    <li><strong>Automatic Redirection:</strong> The <code>&lt;meta http-equiv="refresh"&gt;</code> tag redirects to the home page after 4 seconds, providing a seamless transition.</li>
+                                    <li><strong>Interactive Elements:</strong> The <code>&lt;a&gt;</code> tag within <code>.pageeditor1</code> offers navigation to another page.</li>
+                                </ul>
+                            <strong>CSS Techniques:</strong><br>
+                                <ul>
+                                    <li><strong>Full-Screen Background:</strong> <code>.splashbackground</code> uses <code>background-image</code> with <code>background-size: cover</code> and <code>background-position: center</code> to create a visually engaging, responsive background.</li>
+                                    <li><strong>Centered Content:</strong> <code>.splashcontent</code> is positioned using <code>position: absolute</code> and <code>transform: translate(-50%, -50%)</code> to perfectly center elements on the screen.</li>
+                                    <li><strong>Animations:</strong> The slide-in and fade-in effects are achieved with <code>@keyframes</code> animations, enhancing the page’s dynamism and user engagement.</li>
+                                    <li><strong>Styling Elements:</strong> <code>border-radius: 10px</code> adds smooth corners, while <code>padding</code> and <code>margin</code> control spacing for a clean layout.</li>
+                                    <li><strong>Responsive Design:</strong> Media queries adjust font sizes for smaller screens, ensuring readability and a consistent experience on mobile devices.</li>
+                                </ul>
+                            <strong>Design Choices:</strong><br>
+                                <ul>
+                                    <li><strong>Color Scheme:</strong> The colors reflect a theme of clean water and sustainability, aligning with SDG 6. The mix of sky blue (<code>#E0F7FA</code>), deep blue (<code>#0077B6</code>), and warm orange (<code>#FFA500</code>) create a vibrant yet professional look.</li>
+                                    <li><strong>Text Visibility:</strong> The semi-transparent white backgrounds (<code>rgba(255, 255, 255, 0.7)</code>) applied to text elements provide contrast against the dynamic background while maintaining a modern aesthetic.</li>
+                                    <li><strong>Layering and Depth:</strong> The <code>z-index</code> property ensures that text is always visible above the animated background.</li>
+                                </ul>
+                        </p>
+                        
+                    
+                    <h3>Accessibility</h3>
+                    <p>1. <strong>Semantic HTML:</strong> Used semantic elements like <code>&lt;p&gt;</code> for the mission statement and <code>&lt;br&gt;</code> for separating names, enhancing screen reader support.</p>
+
+                    <p>2. <strong>Text Contrast:</strong> Chose high-contrast colors, such as deep blue (<code>#0077B6</code>) against a light background and white text on a warm orange button (<code>#FFA500</code>), ensuring readability for visually impaired users.</p>
+                    
+                    <p>3. <strong>Readable Fonts:</strong> Used a simple and legible sans-serif font (<code>Arial</code>), improving text clarity.</p>
+                    
+                    <p>4. <strong>Background Overlay:</strong> Added a semi-transparent white background (<code>rgba(255, 255, 255, 0.7)</code>) to text elements, which increases readability over the background image.</p>
+                    
+                    <p>5. <strong>Animations and Motion:</strong> Implemented smooth and short animations (<code>0.8s</code> slide-in and <code>1s</code> fade-in) to avoid triggering motion sensitivity while maintaining an engaging visual experience.</p>
+                    
+                    <p>6. <strong>Responsive Design:</strong> Included media queries to ensure font sizes adjust for smaller screens, improving usability on mobile devices.</p>
+                    
+                    <p>7. <strong>Focus Management:</strong> The auto-redirect (<code>&lt;meta http-equiv="refresh" content="4; url=Home.html"&gt;</code>) can disorient screen reader users. A more accessible approach would be to provide a visible and interactive link to navigate to the next page instead of an automatic redirect.</p>
+                    
+                    <p>8. <strong>Alt Text for Background Images:</strong> Since the background image is set in CSS (<code>background-image</code>), it isn't accessible to screen readers. Instead, a <code>&lt;div&gt;</code> with meaningful text or an alternative method to convey the image's context would improve accessibility.</p>
+                    
+                    <p>9. <strong>Keyboard Accessibility:</strong> Made the "Page Editor" link (<code>&lt;a&gt;</code> element) accessible by ensuring it is focusable and visually distinct.</p>
+                    
+                    
+                    <h3>Link to the validation page</h3> 
+                        <p><a href="validation_ST1.html#splashVal">ValidationPage</a></p>
+
+                    <h3>Link to the page</h3>
+                        <p><a href="splash.HTML" target="_blank">Link to the "Splash Screen".</a></p>
+            </section>
+
+            <section>
+                <h2 id="volunteer">Volunteer Page</h2>
+                    <h3>Technical Description</h3>
+                    <p>The "Volunteer Page" HTML and CSS implementation employs several techniques to create a structured, functional, and visually appealing webpage:</p>
+
+                    <p><strong>1. HTML Structure and Logic</strong></p>
+                    <p><strong>Semantic Elements:</strong></p>
+                    <p>&bull; <code>&lt;header&gt;</code> and <code>&lt;footer&gt;</code> elements provide a clear separation of the top and bottom navigation/content, aiding accessibility and SEO.</p>
+                    <p>&bull; <code>&lt;section&gt;</code> and <code>&lt;div&gt;</code> elements are used for organizing content into logical sections, such as the volunteer section and review section.</p>
+                    <p>&bull; <code>&lt;nav&gt;</code> organizes the navigation links, promoting a consistent and user-friendly interface.</p>
+                    
+                    <p><strong>Purposeful Tag Usage:</strong></p>
+                    <p>&bull; <code>&lt;img&gt;</code> tags are used with alt attributes to improve accessibility.</p>
+                    <p>&bull; <code>&lt;p&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code> tags are used to create a hierarchical content structure.</p>
+                    <p>&bull; <code>&lt;button&gt;</code> elements facilitate interactions, such as "View Details" and "Join Now" actions.</p>
+                    
+                    <p><strong>Interactive Elements:</strong></p>
+                    <p>&bull; The review form uses <code>&lt;form&gt;</code>, <code>&lt;textarea&gt;</code>, and <code>&lt;button&gt;</code> for input collection.</p>
+                    <p>&bull; The dropdown filter utilizes <code>&lt;select&gt;</code> and <code>&lt;option&gt;</code> to offer sorting options for volunteer programs.</p>
+                    
+                    <p><strong>Script for Animation:</strong></p>
+                    <p>&bull; The script detects the scroll position and adds a "show" class to elements to trigger CSS animations, enhancing engagement.</p>
+                    
+                    <p><code>.VolunteerTable thead</code>: Styles the table header with the following properties:</p>
+                    <ul>
+                        <li><code>background-color: #28A745;</code> - Sets the background color to eco green.</li>
+                        <li><code>color: white;</code> - Sets the text color to white.</li>
+                    </ul>
+                    <p><strong>Table:</strong></p>
+                    <p><code>.VolunteerTable th, .VolunteerTable td</code>: Styles the table header and data cells with the following properties:</p>
+                    <ul>
+                        <li><code>padding: 10px;</code> - Adds 10 pixels of padding inside the cells.</li>
+                        <li><code>text-align: left;</code> - Aligns the text to the left.</li>
+                        <li><code>border-bottom: 1px solid #ddd;</code> - Adds a 1-pixel solid bottom border with a light gray color.</li>
+                    </ul>
+
+                    <hr>
+                    
+                    <p><strong>2. CSS Design Choices and Functionality</strong></p>
+                    
+                    <p><strong>Global Styling (<code>style.css</code>):</strong></p>
+                    <p>&bull; <strong>Consistent Branding Colors:</strong></p>
+                    <p>&bull; <code>#E0F7FA</code> (Sky Blue) for background.</p>
+                    <p>&bull; <code>#0077B6</code> (Deep Blue) for header and key text.</p>
+                    <p>&bull; <code>#28A745</code> (Eco Green) for buttons and emphasis.</p>
+                    
+                    <p><strong>Typography and Layout:</strong></p>
+                    <p>&bull; <code>font-family: Arial, sans-serif;</code> for a clean and readable text style.</p>
+                    <p>&bull; Flex and grid layouts are used for adaptive and responsive design, like in <code>.grid-container</code> and <code>.reviewcontainer</code>.</p>
+                    
+                    <p><strong>Volunteer Section (<code>volunteer.css</code>):</strong></p>
+                    <p>&bull; <strong>Volunteer Card Animations:</strong></p>
+                    <p>&bull; <code>.volunteer-card</code> uses <code>opacity</code> and <code>transform</code> properties with transition effects to create a fade-in animation as the user scrolls.</p>
+                    <p>&bull; The <code>.show</code> class is dynamically applied to trigger this effect.</p>
+                    
+                    <p><strong>Background Image:</strong></p>
+                    <p>&bull; <code>.volunteerbackground</code> is set to <code>position: fixed</code> with <code>z-index: -1</code> to act as a full-screen background image.</p>
+                    
+                    <p><strong>Button Design:</strong></p>
+                    <p>&bull; <code>.volunteer-btn</code> uses a smooth scaling effect on hover (<code>transform: scale(1.1)</code>) to enhance interactivity.</p>
+                    
+                    <p><strong>Card Layout:</strong></p>
+                    <p>&bull; The grid display (<code>.volunteer-container</code>) ensures the cards are well-spaced and scrollable if the content overflows.</p>
+                    <p><strong>Table:</strong></p>
+                    <p><code>.VolunteerTable</code>: A class selector used to style the table with the following properties:</p>
+                    <ul>
+                        <li><code>background-color: #E0F7FA;</code> - Sets the background color to sky blue.</li>
+                        <li><code>border: 3px solid #28A745;</code> - Sets a 3-pixel solid border with eco green color.</li>
+                        <li><code>border-radius: 8px;</code> - Rounds the corners of the table with an 8-pixel radius.</li>
+                        <li><code>box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);</code> - Adds a subtle shadow effect to the table.</li>
+                        <li><code>margin: 10px 0;</code> - Adds a 10-pixel margin on the top and bottom.</li>
+                        <li><code>padding: 20px;</code> - Adds 20 pixels of padding inside the table.</li>
+                        <li><code>width: fit-content;</code> - Adjusts the width of the table to fit its content.</li>
+                        <li><code>text-align: left;</code> - Aligns the text to the left.</li>
+                        <li><code>position: relative;</code> - Sets the position to relative.</li>
+                        <li><code>left: 300px;</code> - Moves the table 300 pixels to the right.</li>
+                    </ul>
+
+
+                    <hr>
+                    
+                    <p><strong>3. Functionality and User Experience (UX)</strong></p>
+                    
+                    <p><strong>Responsive Design:</strong></p>
+                    <p>&bull; Media queries (<code>@media (max-width: 768px)</code>) ensure the layout adapts to mobile and tablet views.</p>
+                    <p>&bull; Grid layouts shift to a single column on smaller screens for better readability.</p>
+                    
+                    <p><strong>Interactive Rating System:</strong></p>
+                    <p>&bull; The <code>.rating-input</code> section features emoji-based buttons with hover scaling (<code>transform: scale(1.2)</code>) for playful and intuitive user interaction.</p>
+                    
+                    <p><strong>Navigation and Accessibility:</strong></p>
+                    <p>&bull; Navigation links change color on hover, indicating active elements.</p>
+                    <p>&bull; All images have descriptive <code>alt</code> text, improving screen reader compatibility.</p>
+                    
+                    <hr>
+                    
+                    <p><strong>4. Justification of Design Choices</strong></p>
+                    
+                    <p><strong>Visual Hierarchy:</strong></p>
+                    <p>&bull; Large, bold headings (<code>font-size: 40px</code> for <code>h2</code> in <code>.volunteer-card</code>) draw attention to key elements.</p>
+                    <p>&bull; Color contrast between text (<code>#333333</code>) and backgrounds ensures readability.</p>
+                    
+                    <p><strong>Engagement Through Animation:</strong></p>
+                    <p>&bull; The scroll-based reveal effect on <code>.volunteer-card</code> elements engages users and reduces content overload by introducing elements gradually.</p>
+                    
+                    <p><strong>Scalability:</strong></p>
+                    <p>&bull; Using a grid layout and modular cards makes it easy to add or remove volunteer opportunities without redesigning the layout.</p>
+                    
+                    <p>The combination of semantic HTML, responsive CSS, and simple JavaScript animation creates a functional and engaging volunteer page with a focus on both design aesthetics and practical usability.</p>
+                    
+
+                    <h3>Accessibility</h3>
+                    <p><strong>1. Semantic HTML Elements:</strong> Used &lt;header&gt;, &lt;nav&gt;, &lt;section&gt;, and &lt;footer&gt; tags to create a logical structure for screen readers and improve navigation.</p>
+                    <p><strong>2. Descriptive Alt Text:</strong> All images include descriptive alt text, enhancing accessibility for visually impaired users using screen readers.</p>
+                    <p><strong>3. Form Accessibility:</strong> Form elements are paired with &lt;label&gt; tags using the for attribute, improving screen reader interaction and form usability.</p>
+                    <p><strong>4. Keyboard Navigation:</strong> Interactive elements are fully keyboard accessible, with focus styles to aid users navigating via the keyboard.</p>
+                    <p><strong>5. Color Contrast and Readability:</strong> High contrast between text and background colors ensures readability, benefiting users with visual impairments.</p>
+                    <p><strong>6. Animation Accessibility:</strong> Smooth and subtle animations avoid triggering motion sensitivity while maintaining visual engagement.</p>
+                    <p><strong>7. Scalable Text and Elements:</strong> Relative font sizes and flexible layouts support text resizing and improve responsiveness.</p>
+                    <p><strong>8. Screen Reader Friendliness:</strong> Descriptive call-to-action buttons and potential use of screen reader-only text provide better context for assistive technologies.</p>
+                    <p><strong>9. Form Validation Feedback:</strong> Required attributes and potential use of ARIA roles enhance communication of form status to screen readers.</p>
+                    <p><strong>10. Responsive Design:</strong> Media queries adjust layout for different screen sizes, reducing the need for scrolling and improving accessibility on mobile devices.</p>
+
+                    <h3>Link to the validation page</h3> 
+                        <p><a href="validation_ST1.html#volunteerVal">ValidationPage</a></p> 
+
+                        
+                    <h3>Link to the page</h3>
+                        <p><a href="volunteer.html" target="_blank">Link to the volunteer page.</a></p>
+            </section>
+
+            <section>
+                <h2 id="content">Content Page</h2>
+                    <h3>Technical Description</h3>
+                    <p><strong>HTML Techniques</strong></p>
+
+                    <p><strong>1. Semantic Tags:</strong></p>
+                    <p>- <code>&lt;header&gt;</code>: Used to define the header section of the page, containing the logo and navigation links.</p>
+                    <p>- <code>&lt;nav&gt;</code>: Used for the navigation bar, providing links to different sections of the site.</p>
+                    <p>- <code>&lt;footer&gt;</code>: Defines the footer section, containing additional links and information.</p>
+                    <p>- <code>&lt;section&gt;</code>: Used to group related content together, making it easier to style and manage.</p>
+                    
+                    <p><strong>2. Structural Tags:</strong></p>
+                    <p>- <code>&lt;body&gt;</code>: Contains all the content of the web page.</p>
+                    <p>- <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>: Heading tags used to define the hierarchy of the content.</p>
+                    <p>- <code>&lt;ul&gt;</code> and <code>&lt;li&gt;</code>: Used for creating lists, such as navigation links and other grouped items.</p>
+                    <p>- <code>&lt;img&gt;</code>: Used to display images with a specified maximum width and height.</p>
+                    
+                    <p><strong>3. Classes and IDs:</strong></p>
+                    <p>- <code>.logo</code>: A class used to style the logo section.</p>
+                    <p>- <code>.button</code>: A class used for styling buttons with consistent design.</p>
+                    <p>- <code>.grid-container</code>: A class used to create a grid layout for sections, ensuring a responsive design.</p>
+                    
+                    <p><strong>CSS Techniques</strong></p>
+                    
+                    <p><strong>1. Styling Basics:</strong></p>
+                    <p>- <code>body</code>: Sets the font family, margin, padding, background color, and text color for the entire page.</p>
+                    <p>- <code>header</code>, <code>nav</code>, <code>footer</code>: Styles these sections with background colors, padding, and text alignment to create a cohesive look.</p>
+                    
+                    <p><strong>2. Flexbox and Grid Layouts:</strong></p>
+                    <p>- <code>display: flex</code>: Used in the header and navigation to align items horizontally and center them.</p>
+                    <p>- <code>.grid-container</code>: Uses CSS Grid to create a two-column layout that adjusts based on screen size.</p>
+                    
+                    <p><strong>3. Responsive Design:</strong></p>
+                    <p>- <code>@media (max-width: 768px)</code>: A media query that adjusts the grid layout for smaller screens, ensuring a single-column layout for better readability on mobile devices.</p>
+                    
+                    <p><strong>4. Hover Effects and Transitions:</strong></p>
+                    <p>- <code>nav a:hover</code>: Changes the background color of navigation links on hover for better user interaction.</p>
+                    <p>- <code>.button:hover</code>: Adds a hover effect to buttons, changing the background color to provide visual feedback.</p>
+                    
+                    <p><strong>5. Background and Text Colors:</strong></p>
+                    <p>- Background Colors: Used to create visual separation between different sections (e.g., sky blue for the body, deep blue for the header).</p>
+                    <p>- Text Colors: Chosen to ensure readability and contrast (e.g., dark gray text on a light background).</p>
+                    
+                    <p><strong>6. Positioning and Z-Index:</strong></p>
+                    <p>- <code>.contentbackground</code>: Uses <code>position: fixed</code> and <code>z-index: -1</code> to place a background image behind the content without affecting the layout.</p>
+                    
+                    <p>These techniques collectively ensure that the web page is visually appealing, easy to navigate, and responsive across different devices. If you have any specific questions about any part of the code, feel free to ask!</p>
+                    
+
+                    <h3>Accessibility</h3>
+                    <p>Ensuring accessibility is crucial for creating an inclusive web experience. Here are some ways accessibility was addressed in this page:</p>
+
+                    <p><strong>HTML Techniques for Accessibility</strong></p>
+
+                    <p>1. <strong>Semantic HTML</strong>:</p>
+                    <ul>
+                    <li><strong>Use of Semantic Tags</strong>: Tags like <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;section&gt;</code>, and <code>&lt;footer&gt;</code> provide meaningful structure to the document, making it easier for screen readers to navigate.</li>
+                    <li><strong>Headings</strong>: Proper use of heading tags (<code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>) helps screen readers understand the hierarchy and structure of the content.</li>
+                    </ul>
+
+                    <p>2. <strong>Alt Text for Images</strong>:</p>
+                    <ul>
+                    <li><code>alt</code> Attributes: All images include <code>alt</code> attributes that describe the content of the images. This is essential for users who rely on screen readers to understand the visual content.</li>
+                    </ul>
+
+                    <p>3. <strong>Navigation</strong>:</p>
+                    <ul>
+                    <li><strong>Descriptive Links</strong>: Navigation links have clear and descriptive text, making it easier for users to understand where each link will take them.</li>
+                    <li><strong>Skip to Content</strong>: Including a "Go to Top" link allows users to quickly navigate back to the top of the page, improving the overall user experience.</li>
+                    </ul>
+
+                    <p><strong>CSS Techniques for Accessibility</strong></p>
+
+                    <p>1. <strong>Color Contrast</strong>:</p>
+                    <ul>
+                    <li><strong>High Contrast Colors</strong>: Text and background colors are chosen to ensure high contrast, making the content easier to read for users with visual impairments. For example, dark gray text on a light blue background and white text on a deep blue background.</li>
+                    </ul>
+
+                    <p>2. <strong>Responsive Design</strong>:</p>
+                    <ul>
+                    <li><strong>Media Queries</strong>: The use of media queries ensures that the layout adapts to different screen sizes, making the content accessible on both desktop and mobile devices.</li>
+                    </ul>
+
+                    <p>3. <strong>Focus States</strong>:</p>
+                    <ul>
+                    <li><strong>Hover and Focus Styles</strong>: Interactive elements like links and buttons have distinct hover and focus styles, providing visual feedback to users navigating with a keyboard.</li>
+                    </ul>
+
+                    <p><strong>Additional Considerations</strong></p>
+
+                    <p>1. <strong>Viewport Meta Tag</strong>:</p>
+                    <ul>
+                    <li><strong>Responsive Viewport</strong>: The <code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code> tag ensures that the page scales correctly on different devices, improving accessibility for mobile users.</li>
+                    </ul>
+
+                    <p>2. <strong>ARIA Landmarks</strong>:</p>
+                    <ul>
+                    <li><strong>Role Attributes</strong>: While not explicitly shown in the provided code, using ARIA (Accessible Rich Internet Applications) landmarks like <code>role="navigation"</code> for the <code>&lt;nav&gt;</code> element can further enhance accessibility by providing additional context to screen readers.</li>
+                    </ul>
+
+                    <h3>Link to the validation page</h3>
+                        <p><a href="validation_ST1.html#contentVal">ValidationPage</a></p>
+
+                        
+                    <h3>Link to the page</h3>
+                        <p><a href="content_ST1.html" target="_blank">Link to the Student 1 content page.</a></p>
+            </section>
+
+            <section>
+                <h2 id="challenge"> Challenges and Lessons Learned</h2>
+                <p><strong>Challenges Encountered</strong></p>
+                
+                <p><strong>Design Challenges</strong><br>
+                One of the initial challenges faced was designing the splash screen, volunteer page, and content page in a way that was both aesthetically pleasing and aligned with the overall website theme. The splash screen, in particular, had to grab the user’s attention without being overwhelming, while maintaining simplicity and clarity. The volunteer page needed to be both functional and visually appealing, making it easy for users to understand the purpose and find relevant information.</p>
+                
+                <p><strong>Technical Challenges</strong><br>
+                During the development process, technical difficulties arose, particularly in ensuring that elements on the volunteer page, such as forms and buttons, worked correctly. There were issues with making the page interactive and ensuring that users could submit information effectively. Additionally, ensuring that the content page displayed content dynamically was challenging, particularly when dealing with different data formats.</p>
+                
+                <p><strong>Responsive Design</strong><br>
+                Achieving a design that was both visually appealing and functional across all devices required extra attention to detail in terms of layout adjustments.</p>
+                
+                <p><strong>Time Management</strong><br>
+                Given the tight deadlines, managing time effectively was crucial. Balancing the design of the splash screen, volunteer page, and content page within the timeframe led to some prioritization of tasks. This sometimes meant focusing on essential features and postponing minor details.</p>
+                
+                <p><strong>Resolution of Challenges</strong></p>
+                
+                <p><strong>Design Solutions</strong><br>
+                To resolve the design challenges, I focused on researching best practices for creating a clear, engaging user interface. I created wireframes to visualize the layout of the splash screen and volunteer page before starting the implementation. This helped clarify design concepts and ensured consistency across the website.</p>
+                
+                <p><strong>Technical Solutions</strong><br>
+                For the technical issues with the volunteer page, I used JavaScript and CSS to ensure that buttons, forms, and other interactive elements functioned correctly. By troubleshooting and testing the page on different browsers, I was able to identify and fix issues related to form submission and button interactions.</p>
+                
+                <p><strong>Responsive Design Solutions</strong><br>
+                To address the responsiveness challenge, I implemented CSS Flexbox and Grid to create layouts that could easily adjust to different screen sizes. Regular testing on multiple devices helped ensure that the design remained consistent.</p>
+                
+                <p><strong>Time Management Solutions</strong><br>
+                To overcome time constraints, I broke the tasks down into smaller milestones, setting achievable deadlines for each page. By focusing on the essential features first, such as the structure and functionality of the volunteer page, I was able to prioritize and deliver a fully functional website within the set timeline.</p>
+                
+                <p><strong>Lessons Learned</strong></p>
+                
+                <p><strong>Importance of Clear Design</strong><br>
+                One of the key lessons learned was the significance of a clear, intuitive design. It is crucial to consider the user experience right from the start, ensuring that the website is easy to navigate and visually coherent. Wireframing proved invaluable in this process.</p>
+                
+                <p><strong>Value of Collaboration</strong><br>
+                While working on this project, I realized the importance of collaboration, especially when encountering technical challenges. Consulting with teammates helped me find quicker and more efficient solutions, particularly with interactive elements and responsiveness.</p>
+                
+                <p><strong>User-Centric Design</strong><br>
+                I learned that designing with the user in mind is essential. For the volunteer page, it was important to create an experience that users could easily navigate and understand. This taught me the importance of ensuring accessibility and clarity in design.</p>
+                
+                <p><strong>Responsive Design and Testing</strong><br>
+                The importance of designing with responsiveness in mind was clear throughout this project. By addressing responsiveness early on, I was able to save time later in the process. Regular testing on various devices also helped ensure the website performed well across all platforms.</p>
+                
+                <p><strong>Managing Time and Priorities</strong><br>
+                Time management was a valuable skill that I honed throughout this project. Learning to break tasks down into smaller, manageable components and prioritizing key features helped me stay on track and meet deadlines.</p>    
+            </section>
+
+            <section>
+                <h2 id="compliance"> Compliance</h2>
+                <p><strong>1. HTML and Structure Compliance:</strong></p>
+                <p><strong>• Semantic HTML:</strong> The pages use semantic HTML elements like &lt;header&gt;, &lt;footer&gt;, &lt;nav&gt;, &lt;section&gt;, and &lt;div&gt;, which are crucial for both screen reader accessibility and SEO. These elements provide a meaningful structure to the page, allowing screen readers and other assistive technologies to navigate the content easily. This is in line with the Janet regulations, which prioritize accessible and understandable page structures.</p>
+                <p><strong>• Content Hierarchy:</strong> The correct use of &lt;h1&gt;, &lt;h2&gt;, and &lt;h3&gt; tags helps define a clear content hierarchy, making it easier for users (including those using screen readers) to understand the flow of the page. This helps ensure a logical structure, in compliance with web accessibility standards.</p>
+                <p><strong>• Interactive Elements:</strong> The use of &lt;a&gt; tags for navigation, &lt;button&gt; tags for user interactions, and &lt;form&gt; tags for input collection ensures that users can easily interact with the page, further meeting the Janet regulations for usability.</p>
+                
+                <p><strong>2. CSS and Styling Compliance:</strong></p>
+                <p><strong>• Responsive Design:</strong> Media queries are used throughout the pages to ensure the layout adapts to different screen sizes. This is crucial for accessibility, as it ensures that users on various devices (desktops, tablets, smartphones) can easily access the content. Janet regulations emphasize ensuring a consistent and accessible experience across all devices, and media queries help fulfill this requirement.</p>
+                <p><strong>• Text Contrast and Visibility:</strong> High contrast between text and background colors (e.g., dark gray text on light blue background, and white text on a deep blue background) ensures readability, especially for users with visual impairments. The regulation emphasizes accessibility standards, and high contrast helps meet these guidelines.</p>
+                <p><strong>• Animation Accessibility:</strong> Animations on the page are kept subtle and smooth (e.g., fade-in and slide-in effects), which avoids triggering motion sensitivity issues for users. This aligns with the Janet regulation’s requirement to be mindful of users with motion sensitivity.</p>
+                
+                <p><strong>3. Content Accessibility Compliance:</strong></p>
+                <p><strong>• Alt Text for Images:</strong> All images on the page are accompanied by descriptive alt attributes. This is essential for users relying on screen readers to understand the visual content, complying with the Janet regulation's requirements for accessibility.</p>
+                <p><strong>• Form Accessibility:</strong> Forms are created with appropriate labels and input fields, ensuring that screen readers can read them effectively. Additionally, the use of the required attribute in form elements helps guide users, ensuring compliance with the regulations that require web pages to be accessible to all users.</p>
+                
+                <p><strong>4. Security Compliance:</strong></p>
+                <p><strong>• Content Security:</strong> The use of external CSS files, JavaScript scripts, and proper validation practices ensures that the pages are secure from common web vulnerabilities.</p>
+                
+                <p><strong>5. User Experience and Engagement:</strong></p>
+                <p><strong>• Clear Navigation:</strong> The use of clear, descriptive navigation links and buttons allows users to easily navigate the site. Additionally, the "Go to Top" link enhances the user experience by allowing quick navigation. These design choices promote usability and comply with the Janet regulation’s guidelines for intuitive navigation.</p>
+                <p><strong>• Content Engagement:</strong> The pages incorporate interactive elements (like hover effects, emoji-based ratings, and animations) to engage users while keeping the experience intuitive. However, these elements are subtle and short in duration, avoiding overwhelming users or those with motion sensitivity. This complies with the regulation’s guidance to balance engagement with accessibility.</p>
+                
+                <p><strong>6. Regulatory and Content Compliance:</strong></p>
+                <p><strong>• Validation:</strong> Each page has links to validation pages to ensure that the HTML and CSS code adheres to web standards. This helps ensure that the pages are technically compliant with Janet regulations, which prioritize well-formed, valid code.</p>
+                
+                <p><strong>7. Improvements for Full Compliance:</strong></p>
+                <p><strong>• Alt Text for CSS Background Images:</strong> Since the background image is defined in CSS, it is not accessible to screen readers. Implementing a &lt;div&gt; with meaningful text or using an alternative method to convey the background’s context would improve accessibility and further comply with Janet’s accessibility guidelines.</p>
+                          
+            </section>
+
+            <section>
+                <h2 id="ref">References</h2>
+                    <ul class="ref">
+                        <li>MDN Web Docs, 2025. HTML Elements. Available at: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">https://developer.mozilla.org/en-US/docs/Web/HTML/Element</a> (Accessed: 11 February 2025).</li>
+                        <li>MDN Web Docs, 2025. Meta Tag. Available at: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta" target="_blank">https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta</a> (Accessed: 11 February 2025).</li>
+                        <li>CSS-Tricks, 2025. Keyframe Animation Syntax. Available at: <a href="https://css-tricks.com/snippets/css/keyframe-animation-syntax/" target="_blank">https://css-tricks.com/snippets/css/keyframe-animation-syntax/</a> (Accessed: 11 February 2025).</li>
+                        <li>MDN Web Docs, 2025. Positioning. Available at: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position" target="_blank">https://developer.mozilla.org/en-US/docs/Web/CSS/position</a> (Accessed: 11 February 2025).</li>
+                        <li>MDN Web Docs, 2025. Media Queries. Available at: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries" target="_blank">https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries</a> (Accessed: 11 February 2025).</li>
+                        <li>W3C, 2025. Web Content Accessibility Guidelines (WCAG). Available at: <a href="https://www.w3.org/WAI/WCAG21/quickref/" target="_blank">https://www.w3.org/WAI/WCAG21/quickref/</a> (Accessed: 11 February 2025).</li>
+                        <li>WebAIM, 2025. Contrast Checker. Available at: <a href="https://webaim.org/resources/contrastchecker/" target="_blank">https://webaim.org/resources/contrastchecker/</a> (Accessed: 11 February 2025).</li>                            <li>W3C, 2025. HTML Validator. Available at: <a href="https://validator.w3.org/" target="_blank">https://validator.w3.org/</a> (Accessed: 11 February 2025).</li>
+                        <li>W3Schools, 2025. JavaScript Tutorial. Available at: <a href="https://www.w3schools.com/Js/" target="_blank">https://www.w3schools.com/Js/</a> (Accessed: 6 March 2025).</li>
+                        <li>freeCodeCamp, 2025. JavaScript Course. Available at: <a href="https://www.youtube.com/watch?v=PkZNo7MFNFg" target="_blank">https://www.youtube.com/watch?v=PkZNo7MFNFg</a> (Accessed: 6 March 2025).</li>
+                        <li>freeCodeCamp, 2025. JavaScript Handbook. Available at: <a href="https://www.freecodecamp.org/news/learn-javascript-for-beginners/" target="_blank">https://www.freecodecamp.org/news/learn-javascript-for-beginners/</a> (Accessed: 6 March 2025).</li>
+                        <li>United Nations, 2025. Goal 6: Clean Water and Sanitation. Available at: <a href="https://sdgs.un.org/goals/goal6" target="_blank">https://sdgs.un.org/goals/goal6</a> (Accessed: 6 March 2025).</li>
+                        <li>UNICEF, 2025. Water, Sanitation and Hygiene (WASH). Available at: <a href="https://www.unicef.org/water-sanitation-and-hygiene-wash" target="_blank">https://www.unicef.org/water-sanitation-and-hygiene-wash</a> (Accessed: 6 March 2025).</li>
+                        <li>Bayside Community Care, 2025. Wells for Wellness. Available at: <a href="https://baysidecommunitycare.com.au/wells-for-wellness/?gad_source=1&gclid=CjwKCAiArKW-BhAzEiwAZhWsIMmL1LiuvSE9L3tGaLuZ8r4TgqB4fH7M2UrmFbrvyTxK38jfzLTxlxoCdVoQAvD_BwE" target="_blank">https://baysidecommunitycare.com.au/wells-for-wellness/?gad_source=1&gclid=CjwKCAiArKW-BhAzEiwAZhWsIMmL1LiuvSE9L3tGaLuZ8r4TgqB4fH7M2UrmFbrvyTxK38jfzLTxlxoCdVoQAvD_BwE</a> (Accessed: 6 March 2025).</li>
+                        <li>MDN Web Docs, 2025. Keyboard Navigation. Available at: <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/Keyboard_navigation" target="_blank">https://developer.mozilla.org/en-US/docs/Web/Accessibility/Keyboard_navigation</a> (Accessed: 11 February 2025).</li>
+                    </ul>
+            </section>
+
+            <p class="top"><a href="#top">Go top</a></p>
+        </main>
+
+        <aside>
+            <h3>Core pages developed:</h3>
+
+            <ul class="top-level-ul">
+                <li>Student 1</li>
+                    <ul> 
+                        <li><a href="#splash">Splash page</a></li>
+                        <li><a href="#volunteer">Volunteer page</a></li>
+                        <li><a href="#content">Content page</a></li>
+                    </ul>
+                <li><a href="#challenge">Challenges and Lessons Learned</a></li>
+                <li><a href="#compliance">Compliance</a></li>
+                <li><a href="#ref">References</a></li>
+            </ul>
+            <a href="../Document/ST1_REPORT.pdf" download target="_blank">Download ST1_REPORT PDF</a>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Clean Water & Sanitation. All rights reserved.| <a href="pageEditor_ST1.html">Page Editor</a></p>
+    </footer>
+</body>
+</html>

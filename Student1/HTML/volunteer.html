@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer Page</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/volunteer.css">
+</head>
+
+<body>
+    <div class="volunteerbackground"></div> 
+    <header>
+        <div class="logo">
+            <img src="../Images/logo.png" alt="Clean Water & Sanitation Logo" width="80">
+            <h1>Clean water & Sanitation</h1>
+        </div>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="volunteer.html">Volunteer</a>
+            <a href="table.html">Table</a>
+            <a href="profile.html">User Profile</a>
+            <a href="feedback.html">Feedback</a>
+            <a href="sitemap.html">Sitemap</a>
+            <a href="team.html">Team</a>
+        </nav>
+    </header>
+
+    <div class="Intro">
+        <p style="text-align: center;">
+            <b>"Together, let's ensure access to clean water and sanitation for all, empowering communities through
+                hygiene education, because every drop counts in our fight for sustainable water resources!"</b>
+        </p>
+    </div>
+    <section class="volunteer-section">
+        <h3>Filter Volunteer Programs</h3>
+        <label for="sort">Sort Programs:</label>
+        <select id="sort">
+            <option value="all">All</option>
+            <option value="most-popular">Most Popular</option>
+            <option value="least-popular">Least Popular</option>
+            <option value="most-flexible">Most Flexible</option>
+            <option value="most-impactful">Most Impactful</option>
+        </select>
+    </section>     
+    <div class="volunteer-container">
+           
+        <div class="volunteer-card">
+            <h2>Sanitation and Hygiene Education Card</h2>
+            <h3>Promote Hygiene for Better Health!</h3>
+            <p>
+                <b>Description:</b> "Educate communities about proper sanitation, hygiene practices."<br>
+                <b>Call to Action:</b>"Join us in organizing workshops on sanitation and hygiene for local families."
+                <img src="../Images/educatecommunity.jpg" alt="Volunteer 1" class="volunteer-image">
+            </p>
+            <button class="volunteer-btn">View Details</button>
+            <button class="volunteer-btn">Join Now</button>
+        </div>
+       
+        
+        <div class="volunteer-card">
+            <h2>Clean Water Access Card</h2>
+            <h3>Bring Clean Water to All!</h3>
+            <p>
+                <b>Description:</b>"Help us ensure access to clean water for every household.<br>
+                <b>Call to Action:</b>"Become a volunteer to assist in water filtration and purification projects."
+                <img src="../Images/distibutewater.jpg" alt="Volunteer 2" class="volunteer-image">
+            </p>
+            <button class="volunteer-btn">View Details</button>
+            <button class="volunteer-btn">Join Now</button>
+        </div>
+        <div class="volunteer-card">
+            <h2>Support Infrastructure & Access Card</h2>
+            <h3>Install Rainwater Harvesting Systems!</h3>
+            <p>
+                <b>Description:</b> "Help communities collect and store rainwater."<br>
+                <b>Call to Action:</b>"Help bring clean water and sanitation to communities by supporting rainwater harvesting systems."
+                <img src="../Images/Rainwaterharvest.jpg" alt="Volunteer 3" class="volunteer-image">
+            </p>
+            <button class="volunteer-btn">View Details</button>
+            <button class="volunteer-btn">Join Now</button>
+        </div>
+        <div class="volunteer-card">
+            <h2>River and Beach Cleanup Card</h2>
+            <h3>Protect Our Water Bodies!</h3>
+            <p>
+                <b>Description:</b>"Volunteer with us to clean and protect our rivers and beaches."<br>
+                <b>Call to Action:</b>"Sign up for our next cleanup event and make a positive impact on water quality."
+                <img src="../Images/beachclean.jpg" alt="Volunteer 4" class="volunteer-image"> 
+            </p>
+            <button class="volunteer-btn">View Details</button>
+            <button class="volunteer-btn">Join Now</button>
+        </div>
+        <table class="VolunteerTable">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Event</th>
+                <th>Location</th>
+                <th>Volunteers Needed</th>
+                <th>Fees (Rs.)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>March 15, 2025</td>
+                <td>Sanitation and Hygiene Education</td>
+                <td>Central College, Anuradhapura</td>
+                <td>15</td>
+                <td>1000</td>
+              </tr>
+              <tr>
+                <td>April 10, 2025</td>
+                <td>Clean Water Access</td>
+                <td>Community Center</td>
+                <td>25</td>
+                <td>2500</td>
+              </tr>
+              <tr>
+                <td>May 5, 2025</td>
+                <td>Support Infrastructure & Access</td>
+                <td>City Hall, Monaragala</td>
+                <td>30</td>
+                <td>2000</td>
+              </tr>
+              <tr>
+                <td>June 2, 2025</td>
+                <td>River and Beach Cleanup</td>
+                <td>MountLavinia Beach</td>
+                <td>40</td>
+                <td>1500</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+    <div class="review-container">
+        <form class="review-form" action="submit_review.php" method="post">
+            <label for="review">Your review:</label>
+            <textarea id="review" name="review" rows="4" placeholder="Write your review here..."
+                required></textarea>
+                
+            <button type="submit">Submit</button>
+            <button type="reset">Cancel</button>
+            <div class="rating-input">
+                <label>Your Rating:</label><br>
+                <button type="button">😡</button>
+                <button type="button">😕</button>
+                <button type="button">😐</button>
+                <button type="button">😊</button>
+                <button type="button">😍</button>
+            </div>
+        </form>
+    </div>
+    <div class="rating-summary">
+        <p><strong>9.4/10</strong> Exceptional</p>
+        <p>Total Reviews: 56</p>
+    </div>
+    <div class="past-reviews">
+        <h2 style="text-align: center;">Past Reviews</h2>
+    </div>
+    <div class="reviewcontainer">
+        <div class="review-card">
+            <h3>😍Highly Recommend!</h3>
+            <p>"Loved the experience! The team was welcoming..." <a href="#">See More</a></p>
+            <p><strong>Reviewer:</strong> Kevin L. | <strong>Date:</strong> February 3, 2025</p>
+        </div>
+        <div class="review-card">
+            <h3>😍Highly Recommend!</h3>
+            <p>"This volunteering opportunity helped me grow as a person..." <a href="#">See More</a></p>
+            <p><strong>Reviewer:</strong> Zain A. | <strong>Date:</strong> February 23, 2025</p>
+        </div>
+        <div class="review-card">
+            <h3>😍Highly Recommend!</h3>
+            <p>"I’ve volunteered with many organizations, but this...." <a href="#">See More</a></p>
+            <p><strong>Reviewer:</strong> Peter S. | <strong>Date:</strong> February 8, 2025</p>
+        </div>
+        <div class="review-card">
+            <h3>😍 Highly Recommend!</h3>
+            <p>"A perfect place to volunteer if you want..." <a href="#">See More</a></p>
+            <p><strong>Reviewer:</strong> Tharu A. | <strong>Date:</strong> January 6, 2025</p>
+        </div>
+    </div>
+    <script src="../JavaScripts/volunteer.js"></script>
+
+     <footer>
+        <p>&copy; 2025 Clean Water & Sanitation. All rights reserved. | <a href="pageEditor_ST1.html">Page Editor</a></p>
+    </footer>
+</body>
+</html>
